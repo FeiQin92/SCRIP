@@ -68,7 +68,7 @@ SCRIPsimu=function(data,
     method <- "single"
   }
 
-  if (!(mode %in% c("GP-commonBCV","GP-trendedBCV","BP-commonBCV","BP-trendedBCV","BP","BP-burstBCV"))){
+  if (!(mode %in% c("GP-commonBCV","GP-trendedBCV","BP-commonBCV","BP-trendedBCV","BP","BGP-commonBCV","BGP-trendedBCV"))){
     stop("simulating mode was not typed correctly")
   }
 
